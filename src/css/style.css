@@ -83,7 +83,6 @@ h3, h4, h5 {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  /* margin: 3rem 0; */
   margin-top: 2.5rem;
 }
 
@@ -98,7 +97,7 @@ h3, h4, h5 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-gap: 2rem;
 }
 
@@ -111,8 +110,8 @@ h3, h4, h5 {
 }
 
 .grid-image {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 6rem;
+  max-height: 6rem;
   width: auto;
   height: auto;
   margin: 0 1rem;

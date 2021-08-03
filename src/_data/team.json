@@ -42,77 +42,77 @@
   {
     "name": "Aviv Junno",
     "title": "Co-Founder & CEO",
-    "image": "/img/avivjunno.jpg"
+    "image": "img/avivjunno.jpg"
   },
   {
     "name": "Oskari Kettunen",
     "title": "Co-Founder & COO",
-    "image": "/img/oskarikettunen.jpg"
+    "image": "img/oskarikettunen.jpg"
   },
   {
     "name": "Mathias Lindholm",
     "title": "VP of Product",
-    "image": "/img/mathiaslindholm.jpg"
+    "image": "img/mathiaslindholm.jpg"
   },
   {
     "name": "Henri Karhatsu",
     "title": "VP of Engineering",
-    "image": "/img/henrikarhatsu.jpg"
+    "image": "img/henrikarhatsu.jpg"
   },
   {
     "name": "Aapo Kojo",
     "title": "VP of Growth",
-    "image": "/img/aapokojo.jpg"
+    "image": "img/aapokojo.jpg"
   },
   {
     "name": "Minna Liimatainen",
     "title": "Head of Partnerships",
-    "image": "/img/minnaliimatainen.jpg"
+    "image": "img/minnaliimatainen.jpg"
   },
   {
     "name": "Mikko Koponen",
     "title": "Senior Developer",
-    "image": "/img/mikkok.png"
+    "image": "img/mikkok.png"
   },
   {
     "name": "Anton Zvonkov",
     "title": "Senior Developer",
-    "image": "/img/antonzvonkov.jpg"
+    "image": "img/antonzvonkov.jpg"
   },
   {
     "name": "Alexander Fedosov",
     "title": "Senior Developer",
-    "image": "/img/alexanderfedosov.jpg"
+    "image": "img/alexanderfedosov.jpg"
   },
   {
     "name": "Lauri Heino",
     "title": "Senior Developer",
-    "image": "/img/lauriheino.jpg"
+    "image": "img/lauriheino.jpg"
   },
   {
     "name": "Pekka Kallioniemi",
     "title": "Scientist",
-    "image": "/img/pekkakallioniemi.jpg"
+    "image": "img/pekkakallioniemi.jpg"
   },
   {
     "name": "Sigalit Saarikivi",
     "title": "Administrative Manager",
-    "image": "/img/sigalitsaarikivi.jpg"
+    "image": "img/sigalitsaarikivi.jpg"
   },
   {
     "name": "Sami Simola",
     "title": "Head of Curation",
-    "image": "/img/samisimola.jpg"
+    "image": "img/samisimola.jpg"
   },
   {
     "name": "Noa Junno",
     "title": "Community Manager",
-    "image": "/img/noajunno.jpg"
+    "image": "img/noajunno.jpg"
   },
   {
     "name": "hazalophy",
     "title": "Partner Success Manager",
-    "image": "/img/hazalophy.jpg"
+    "image": "img/hazalophy.jpg"
   },
   {
     "name": "noodleBoy",
@@ -122,26 +122,26 @@
   {
     "name": "Mikko Keränen",
     "title": "Curator",
-    "image": "/img/mikkokeranen.jpg"
+    "image": "img/mikkokeranen.jpg"
   },
   {
     "name": "Oskari Leppälä",
     "title": "Curator",
-    "image": "/img/oskarileppala.jpg"
+    "image": "img/oskarileppala.jpg"
   },
   {
     "name": "Tuukka Linnala",
     "title": "Curator",
-    "image": "/img/tuukkalinnala.jpg"
+    "image": "img/tuukkalinnala.jpg"
   },
   {
     "name": "Rosa Nykänen",
     "title": "Curator",
-    "image": "/img/rosanykanen.jpg"
+    "image": "img/rosanykanen.jpg"
   },
   {
     "name": "Elias Lankinen",
     "title": "Developer",
-    "image": "/img/eliaslankinen.jpg"
+    "image": "img/eliaslankinen.jpg"
   }
 ]

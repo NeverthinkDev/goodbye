@@ -1,0 +1,139 @@
+html {
+  background: #111;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-width: 40rem) {
+  html {
+    font-size: 18px;
+  }
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+h3, h4, h5 {
+  font-size: 1rem;
+}
+
+.wrapper {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.header-logo {
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header-image {
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+@media (min-width: 40rem) {
+  .header-image {
+    max-width: 120%;
+  }
+}
+
+.section {
+  padding-bottom: 3rem;
+}
+
+.quote {
+  border-left: 2px solid #999;
+  padding-left: 1rem;
+  color: #aaa;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  /* margin: 3rem 0; */
+  margin-top: 2.5rem;
+}
+
+.quote-text {
+  font-size: 1.2rem;
+}
+
+.quote-source {
+  font-weight: 800;
+  margin-top: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(120px, 1fr));
+  grid-gap: 2rem;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.grid-image {
+  max-width: 120px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  margin: 0 1rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.grid-name {
+  font-weight: 800;
+  margin-top: 0.5rem;
+}
+
+.grid-title {
+  font-size: 0.75rem;
+  color: #aaa;
+  margin-top: 0.25rem;
+}
+
+.footer {
+  font-size: 0.75rem;
+  color: #aaa;
+  text-align: center;
+  margin-bottom: 3rem;
+}

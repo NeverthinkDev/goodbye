@@ -100,6 +100,25 @@ h3, h4, h5 {
   width: 70vw;
 }
 
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  row-gap: 3rem;
+  text-align: center;
+}
+
+.stats h3 {
+  font-size: 3.7rem;
+  margin: 0;
+  line-height: 1;
+}
+.stats .c1 { color: #8234f4; }
+.stats .c2 { color: #ec5ebd; }
+.stats .c3 { color: #c3f54f; }
+.stats p {
+  margin: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));

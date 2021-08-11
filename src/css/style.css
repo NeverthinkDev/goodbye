@@ -64,7 +64,8 @@ h3, h4, h5 {
 }
 
 .logo {
-  width: 50vw;
+  width: 75%;
+  max-width: 36rem;
   height: auto;
 }
 

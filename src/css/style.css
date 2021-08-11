@@ -49,17 +49,11 @@ h3, h4, h5 {
   padding: 1rem;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4rem 0;
-}
-
 #splash {
   position: relative;
-  height: 40vh;
+  height: 50vh;
 }
+
 .logoContainer {
   position: absolute;
   z-index: 2;
@@ -68,6 +62,7 @@ h3, h4, h5 {
   align-items: center;
   justify-content: center;
 }
+
 .logo {
   width: 50vw;
   height: auto;
@@ -75,6 +70,24 @@ h3, h4, h5 {
 
 .section {
   padding-bottom: 3rem;
+}
+
+.awards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.awards img {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+@media (min-width: 40rem) {
+  .awards img {
+    max-width: 125%;
+  }
 }
 
 .quote {
@@ -96,27 +109,31 @@ h3, h4, h5 {
   margin-top: 0.5rem;
 }
 
-.awards {
-  width: 70vw;
-}
-
 .stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 3rem;
-  text-align: center;
+}
+
+@media (min-width: 40rem) {
+  .stats {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
 }
 
 .stats h3 {
-  font-size: 3.7rem;
-  margin: 0;
-  line-height: 1;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 0rem;
+  line-height: 1.2;
 }
 .stats .c1 { color: #8234f4; }
 .stats .c2 { color: #ec5ebd; }
 .stats .c3 { color: #c3f54f; }
 .stats p {
   margin: 0;
+  color: #aaa;
+  font-size: 0.9rem;
 }
 
 .grid {
@@ -146,6 +163,10 @@ h3, h4, h5 {
 .grid-name {
   font-weight: 800;
   margin-top: 0.5rem;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .grid-title {

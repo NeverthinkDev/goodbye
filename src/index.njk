@@ -48,12 +48,12 @@
   <div class="section">
     <h2>Stats</h2>
     <div class="stats">
-      <div><h3 class="c1">15M</h3><p>Users wordwide</p></div>
-      <div><h3 class="c2">85K</h3><p>Creators</p></div>
-      <div><h3 class="c1">300</h3><p>Partners</p></div>
-      <div><h3 class="c3">700M</h3><p>Total video views</p></div>
-      <div><h3 class="c3">5M</h3><p>Videos reviewed by our&nbsp;team</p></div>
-      <div><h3 class="c2">500K</h3><p>Videos selected by our&nbsp;team</p></div>
+      <div><h3 class="cycle-colors c0">15M</h3><p>Users wordwide</p></div>
+      <div><h3 class="cycle-colors c1">85K</h3><p>Creators</p></div>
+      <div><h3 class="cycle-colors c2">300</h3><p>Partners</p></div>
+      <div><h3 class="cycle-colors c3">700M</h3><p>Total video views</p></div>
+      <div><h3 class="cycle-colors c4">5M</h3><p>Videos reviewed by our&nbsp;team</p></div>
+      <div><h3 class="cycle-colors c0">500K</h3><p>Videos selected by our&nbsp;team</p></div>
     </div>
 
   </div>
@@ -71,7 +71,7 @@
     <h2>The team</h2>
     <div class="grid">
       {% for user in team | sort(false, false, 'name') %}
-        <div class="grid-item">
+        <div class="grid-item cycle-colors c{{ loop.index0 % 5 }}">
           <img class="grid-image" src="{{ user.image }}" alt="{{ user.name }}"/>
           <span class="grid-name">{{ user.name }}</span>
           <span class="grid-title">{{ user.title }}</span>
@@ -83,7 +83,7 @@
     <h2>Our partners</h2>
     <div class="grid">
       {% for user in partners | sort(false, false, 'name') %}
-        <div class="grid-item">
+        <div class="grid-item cycle-colors c{{ loop.index0 % 5 }}">
           <img class="grid-image" src="{{ user.profileImageUrl }}" alt="{{ user.publicName }}"/>
           <span class="grid-name">{{ user.publicName }}</span>
         </div>

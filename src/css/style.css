@@ -1,3 +1,11 @@
+:root {
+  --pink: #ff00b4;
+  --purple: #b400ff;
+  --blue: #00b4ff;
+  --green: #aaf200;
+  --orange: #ffb400;
+}
+
 html {
   background: #111;
   color: #fff;
@@ -144,9 +152,6 @@ p.large {
   margin-bottom: 0rem;
   line-height: 1.2;
 }
-.stats .c1 { color: #8234f4; }
-.stats .c2 { color: #ec5ebd; }
-.stats .c3 { color: #c3f54f; }
 .stats p {
   margin: 0;
   color: #aaa;
@@ -196,4 +201,26 @@ p.large {
   color: #aaa;
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.cycle-colors {
+	-webkit-animation: cycle-colors 10s linear 0s infinite normal;
+	-moz-animation: cycle-colors 10s linear 0s infinite normal;
+	-ms-animation: cycle-colors 10s linear 0s infinite normal;
+	animation: cycle-colors 10s linear 0s infinite normal;
+}
+
+.c0 { animation-delay: 0s; }
+.c1 { animation-delay: -2s; }
+.c2 { animation-delay: -4s; }
+.c3 { animation-delay: -6s; }
+.c4 { animation-delay: -8s; }
+
+@keyframes cycle-colors {
+	0%  { color: var(--pink); }
+	20% { color: var(--purple); }
+	40% { color: var(--blue); }
+	60% { color: var(--green); }
+	80% { color: var(--orange); }
+	100% { color: var(--pink); }
 }
